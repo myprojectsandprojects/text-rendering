@@ -1,0 +1,123 @@
+
+MEMORY MAPPING: (NO ALLOCATIONS)
+
+NumMissedFrames: 0
+average frame time: 4.739478 ms
+average frame time deviation: 0.302171 ms
+(999 frames)
+
+NumMissedFrames: 0
+average frame time: 4.800999 ms
+average frame time deviation: 0.354269 ms
+(999 frames)
+
+NumMissedFrames: 0
+average frame time: 4.744224 ms
+average frame time deviation: 0.331352 ms
+(999 frames)
+
+---
+VERTEX BUFFER (NO ALLOCATIONS)
+
+NumMissedFrames: 0
+average frame time: 5.094189 ms
+average frame time deviation: 0.408844 ms
+(999 frames)
+
+NumMissedFrames: 0
+average frame time: 5.068567 ms
+average frame time deviation: 0.394882 ms
+(999 frames)
+
+NumMissedFrames: 0
+average frame time: 5.059980 ms
+average frame time deviation: 0.395193 ms
+(999 frames)
+
+---
+DYNAMIC ARRAY (NO ALLOCATIONS)
+
+NumMissedFrames: 0
+average frame time: 5.553349 ms
+average frame time deviation: 0.796409 ms
+(999 frames)
+
+NumMissedFrames: 0
+average frame time: 5.623960 ms
+average frame time deviation: 0.799128 ms
+(999 frames)
+
+average frame time: 5.592414 ms
+average frame time deviation: 0.802608 ms
+(999 frames)
+
+DYNAMIC ARRAY WITH GEOMETRY SHADER (NO ALLOCATIONS)
+---
+
+NumMissedFrames: 0
+average frame time: 10.872247 ms
+average frame time deviation: 1.186499 ms
+(999 frames)
+
+NumMissedFrames: 1
+average frame time: 10.439749 ms
+average frame time deviation: 1.263932 ms
+(999 frames)
+
+NumMissedFrames: 0
+average frame time: 10.362969 ms
+average frame time deviation: 1.241696 ms
+(999 frames)
+
+---
+DYNAMIC ARRAY WITH ALLOCATIONS STARTING WITH SAY 1024
+
+NumMissedFrames: 21
+average frame time: 12.608707 ms
+average frame time deviation: 0.907486 ms
+(999 frames)
+
+NumMissedFrames: 4
+average frame time: 12.221276 ms
+average frame time deviation: 0.724634 ms
+(999 frames)
+
+NumMissedFrames: 8
+average frame time: 12.332505 ms
+average frame time deviation: 0.781871 ms
+(999 frames)
+
+---
+
+What takes time when dynamic array allocates memory?
+
+ALLOCATING NEW MEMORY
+malloc(): 2724 cycles
+copying: 14871 cycles
+ALLOCATING NEW MEMORY
+malloc(): 7811 cycles
+copying: 25843 cycles
+ALLOCATING NEW MEMORY
+malloc(): 2190 cycles
+copying: 46573 cycles
+ALLOCATING NEW MEMORY
+malloc(): 3600 cycles
+copying: 106696 cycles
+ALLOCATING NEW MEMORY
+malloc(): 138570 cycles
+copying: 241942 cycles
+ALLOCATING NEW MEMORY
+malloc(): 27428 cycles
+copying: 619772 cycles
+ALLOCATING NEW MEMORY
+malloc(): 43133 cycles
+copying: 1235696 cycles
+ALLOCATING NEW MEMORY
+malloc(): 40258 cycles
+copying: 2229980 cycles
+ALLOCATING NEW MEMORY
+malloc(): 102376 cycles
+copying: 4022728 cycles
+ALLOCATING NEW MEMORY
+malloc(): 41407 cycles
+copying: 7375817 cycles

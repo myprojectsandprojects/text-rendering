@@ -1,0 +1,9 @@
+g++ -std=c++11 -g\
+ -I./include -I./glad/include\
+ main.cpp\
+ ./glad/src/glad.c\
+ lib.cpp\
+ opengl.cpp\
+ libglfw3.a\
+ libfreetype.a\
+ -ldl -lpthread -lGL -lz -lpng -lharfbuzz
